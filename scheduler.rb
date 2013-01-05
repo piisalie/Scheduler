@@ -11,9 +11,9 @@ class Vehicle
     @status   = status 
   end
 
-  def id
+  def to_s
     "#@make #@model from #@customer"
-  end  
+  end
 end
 
 
